@@ -35,3 +35,41 @@ body {
 .container h1 {
     font-size: 4rem;
 }
+
+.setting {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    /*to align to riht bottom*/
+    display: flex;
+    /*to align side by side all items*/
+    align-items: center;
+    gap: 1rem;
+}
+
+.setting .fa-gear {
+    font-size: 3rem;
+    color: white;
+}
+
+.setting_content {
+    display: flex;
+    gap: 1rem;
+    /*for formatting content inputtags*/
+}
+
+.setting_content input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.setting_content button {
+    padding: 0.5rem 1rem;
+    /*for padding fromright and bottom*/
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 1rem;
+    /*to make size of bend*/
+}
